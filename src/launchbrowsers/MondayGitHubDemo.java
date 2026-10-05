@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 public class MondayGitHubDemo {
 	WebDriver driver;
   @Test
-  public void facebook() {
-	  driver.get("https://www.facebook.com");
+  public void googlebyKalavathi() {
+	  driver.get("https://www.google.com");
   }
   @BeforeTest
   public void beforeTest() {
