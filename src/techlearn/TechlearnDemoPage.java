@@ -9,7 +9,9 @@ public class TechlearnDemoPage {
 	WebDriver driver;
   @Test
   public void tech() {
-	  driver.get("https://www.techlearn.in");
+	  // Naveen updated /demo in the below url
+	  driver.get("https://www.techlearn.in/demo");
+	  
   }
   @BeforeTest
   public void beforeTest() {
