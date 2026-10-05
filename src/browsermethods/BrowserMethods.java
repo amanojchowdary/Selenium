@@ -9,9 +9,9 @@ public class BrowserMethods {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		Thread.sleep(8000);
 		//driver.manage().window().minimize();
-		driver.manage().window().fullscreen();
+		//driver.manage().window().fullscreen();
 		
 	}
 

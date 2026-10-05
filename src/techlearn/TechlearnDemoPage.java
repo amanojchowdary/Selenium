@@ -8,8 +8,7 @@ import org.testng.annotations.BeforeTest;
 public class TechlearnDemoPage {
 	WebDriver driver;
   @Test
-  public void tech() {
-	  // Naveen updated /demo in the below url
+  public void techlearndemopage() {
 	  driver.get("https://www.techlearn.in/demo");
 	  
   }
